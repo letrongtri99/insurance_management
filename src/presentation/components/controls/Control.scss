@@ -1,0 +1,23 @@
+.MuiFormLabel-root {
+  color: rgba(black, 0.87) !important;
+}
+
+.MuiInputLabel-formControl {
+  text-transform: lowercase;
+
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.MuiInputLabel-shrink {
+  background: white;
+  line-height: 0.6 !important;
+  padding: 0 5px 5px !important;
+}
+
+.MuiButton-containedPrimary {
+  .MuiButton-label {
+    color: white;
+  }
+}

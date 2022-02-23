@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/presentation/components/controls/DateRanges.jsx",
+    "src/presentation/components/controls/DateRange.tsx",
+    "src/vendor/defaultRanges.js",
+    "src/stories/Page.stories.jsx",
+    "src/stories/Header.stories.jsx",
+    "src/stories/Button.stories.jsx",
+    "src/presentation/components/controls/DateRange.stories.jsx",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "src/**/*.stories.tsx"
+  ]
+}

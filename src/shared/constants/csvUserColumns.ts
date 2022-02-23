@@ -1,0 +1,42 @@
+export const csvUserColumns = [
+  'User Role',
+  'First Name',
+  'Last Name',
+  'User Name',
+  'Assigned Product',
+  'Assigned Team',
+  'Daily Lead Limit',
+  'Total Lead Limit',
+  'Agent Score',
+  'User Status',
+];
+
+export const csvUserData = [
+  [
+    'Sales Agent',
+    'John',
+    'Call',
+    'hoang1',
+    'Health Insurance',
+    'team tung 12/7',
+    2,
+    2,
+    3,
+    'Activate',
+  ],
+  ['Manager', 'Join', 'Call', 'hoang53', '', '', '', '', '', 'Activate'],
+  ['Admin', 'Join', 'Call', 'hoang76', '', '', '', '', '', 'Suspend'],
+  ['Supervisor', 'Join', 'Call', 'tung80', '', '', '', '', '', 'Activate'],
+  [
+    'Sales Agent',
+    'Join',
+    'Call',
+    'tung71',
+    'Health Insurance',
+    'team tung 12/7',
+    2,
+    2,
+    3,
+    'Suspend',
+  ],
+];

@@ -1,0 +1,44 @@
+{
+  "customQuote": {
+    "name": "Cypress test",
+    "sum_coverage_max": "150000",
+    "deductible_amount": "2000",
+    "price": "7000",
+    "liability_per_person_coverage": "10000",
+    "liability_per_accident_coverage": "10000",
+    "liability_property_coverage": "10000",
+    "personal_accident_coverage": "10000",
+    "medical_expenses_coverage": "10000",
+    "bail_bond_coverage": "10000"
+  },
+  "status": {
+    "1": {
+      "THAI": "ใหม่",
+      "ENGLISH": "New"
+    },
+    "2": {
+      "THAI": "สมบูรณ์",
+      "ENGLISH": "Valid"
+    },
+    "3": {
+      "THAI": "ติดต่อแล้ว",
+      "ENGLISH": "Contacted"
+    },
+    "4": {
+      "THAI": "สนใจ",
+      "ENGLISH": "Interested"
+    },
+    "5": {
+      "THAI": "มีโอกาสซื้อ",
+      "ENGLISH": "Prospect"
+    },
+    "6": {
+      "THAI": "รอดำเนินการชำระเงิน",
+      "ENGLISH": "Pending Payment"
+    },
+    "7": {
+      "THAI": "ยกเลิก",
+      "ENGLISH": "Cancelled"
+    }
+  }
+}

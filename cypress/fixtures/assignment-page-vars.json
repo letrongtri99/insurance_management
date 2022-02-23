@@ -1,0 +1,16 @@
+{
+  "buttons": {
+    "search_button": {
+      "thai": "ค้นหา",
+      "english": "Search"
+    },
+    "assign_button": {
+      "thai": "มอบหมาย",
+      "english": "assign"
+    },
+    "unassign_button": {
+      "thai": "ยกเลิกการมอบหมาย",
+      "english": "unassign"
+    }
+  }
+}

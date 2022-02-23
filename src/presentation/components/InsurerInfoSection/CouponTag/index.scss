@@ -1,0 +1,16 @@
+.coupon-tag {
+  border: 1px solid #000;
+  width: 100%;
+  height: 40px;
+  padding: 10px 0 10px 22px;
+  display: flex;
+  align-items: center;
+
+  &__code {
+    width: 90%;
+  }
+
+  &__icon {
+    color: #000;
+  }
+}

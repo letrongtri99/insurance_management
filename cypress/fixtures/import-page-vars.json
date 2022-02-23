@@ -1,0 +1,9 @@
+{
+  "addLead": {
+    "firstName": "Cypress",
+    "lastName": "Test",
+    "phone": "0999999999",
+    "email": "Cypress@testemail.com",
+    "reference": "Cypress"
+  }
+}

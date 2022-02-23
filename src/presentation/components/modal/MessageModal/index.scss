@@ -1,0 +1,163 @@
+@import '../../../../scss/reuse-mixin.scss';
+
+.message-modal-wrap {
+  .MuiDialog-paper {
+    width: 90vw;
+    height: 90vh;
+    overflow-y: unset;
+    max-width: 100%;
+    border-radius: 16px;
+  }
+
+  .message-modal-override {
+    height: 100%;
+
+    .modal-button-close {
+      background-color: #dbdbdb;
+
+      .close-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        cursor: pointer;
+        top: -20px;
+        right: -20px;
+        background-color: #f8f6f6;
+        color: #3849ab;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        z-index: 3;
+        overflow: hidden;
+        box-shadow: 2px 3px 14px 0 rgba(74, 74, 74, 0.25);
+      }
+    }
+
+    .no-background {
+      background-color: #fff;
+    }
+
+    .message-modal {
+      height: 100%;
+      overflow: hidden;
+      border-radius: 16px;
+
+      .modal-header {
+        .user-info-section {
+          &__name {
+            margin: 0;
+          }
+
+          &__id {
+            margin: 0;
+          }
+        }
+
+        .header-button {
+          margin-top: 0;
+
+          @include min-md {
+            text-align: right;
+          }
+
+          &__valid {
+            color: #fff;
+
+            @include max-md {
+              margin-top: 10px;
+            }
+          }
+        }
+
+        .unittest-customer-name {
+          word-break: break-word;
+        }
+      }
+
+      &__list {
+        border-right: 1px solid #000;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        @include max-md {
+          font-size: 80%;
+        }
+
+        &__items {
+          overflow-y: auto;
+
+          &::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+          }
+
+          &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            background-clip: content-box;
+            border: 1px solid transparent;
+            border-radius: 7px;
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+
+            &:hover {
+              background: rgba(0, 0, 0, 0.2);
+            }
+          }
+        }
+      }
+
+      &__detail {
+        height: 100%;
+        display: flex;
+
+        .no-message-wrapper {
+          height: 100%;
+          text-align: center;
+          display: table;
+          width: 100%;
+
+          &__text {
+            display: table-cell;
+            vertical-align: middle;
+            color: #e0e0e0;
+            font-weight: lighter;
+          }
+        }
+      }
+
+      &__compose,
+      &__reply-compose {
+        max-height: 90vh;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+          width: 6px;
+          height: 6px;
+        }
+
+        &::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-clip: content-box;
+          border: 1px solid transparent;
+          border-radius: 7px;
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+}

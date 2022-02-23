@@ -1,0 +1,21 @@
+.shared-comment-text-box {
+  .MuiTab-wrapper {
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .MuiButton-label {
+    text-transform: capitalize;
+    color: #fff;
+  }
+
+  .shared-comment-text-box__btn {
+    background-color: #000;
+    border-radius: 0;
+    padding: inherit 20px;
+
+    &:hover {
+      background-color: #000;
+    }
+  }
+}

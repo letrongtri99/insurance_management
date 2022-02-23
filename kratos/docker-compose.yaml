@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:1.19-alpine
+    ports:
+      - "4432:80"
+    restart: unless-stopped
+    volumes:
+     - type: bind
+       source: ./config/nginx/kratos.conf
+       target: /etc/nginx/conf.d/default.conf
+       read_only: true
+     - type: bind
+       source: ./config/nginx/snippets
+       target: /etc/nginx/snippets
+       read_only: true

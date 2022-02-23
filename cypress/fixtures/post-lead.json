@@ -1,0 +1,25 @@
+{
+  "schema": "schemas/efce3390-8da6-44b3-9e4c-2c7b78ca2c9d",
+  "data": {
+    "checkout": {
+      "installments": 1
+    },
+    "customerFirstName": "Auto_Test",
+    "customerLastName": "Cypress",
+    "carUsageType": "personal",
+    "customerPhoneNumber": [
+      {
+        "phone": "+66999999999",
+        "status": "unverified"
+      }
+    ],
+    "customerEmail": ["Cypress@gmail.co.th"],
+    "customerPolicyAddress": [],
+    "customerShippingAddress": [],
+    "customerBillingAddress": []
+  },
+  "type": "LEAD_TYPE_NEW",
+  "reference": "test",
+  "source": "sources/80191a3b-0447-43d3-a455-4ccc878b45ef",
+  "product": "products/car-insurance"
+}

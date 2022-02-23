@@ -1,0 +1,17 @@
+.source-listing-table {
+  .MuiCard-root {
+    width: 100%;
+  }
+
+  .MuiCardContent-root {
+    padding: 16px 0;
+  }
+
+  td:first-child {
+    text-align: center;
+  }
+
+  th {
+    text-align: left;
+  }
+}

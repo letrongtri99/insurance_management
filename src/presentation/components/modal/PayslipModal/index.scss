@@ -1,0 +1,30 @@
+@import '../../../../scss/reuse-mixin.scss';
+
+.payment-confirmation-dropzone {
+  .MuiSvgIcon-root {
+    background: url('../../../../images/icons/import-lead.svg');
+    background-repeat: round;
+
+    path {
+      display: none;
+    }
+  }
+}
+
+.pay-slip-modal__form {
+  .MuiInputBase-input {
+    padding: 11px 16px;
+    border: 1px solid $bg-color-blue-5;
+    border-radius: 10px;
+    height: 42px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    &:hover,
+    &:focus {
+      transition: 0.2s;
+      border: 1px solid $text-color-blue-6;
+      box-shadow: 0 7px 15px 0 $box-shadow-field;
+    }
+  }
+}

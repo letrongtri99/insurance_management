@@ -1,0 +1,120 @@
+@import '../../../../scss/reuse-mixin.scss';
+
+.admin-team-page {
+  &__control-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .paging {
+    float: right;
+    margin: 20px 0;
+  }
+
+  .MuiCard-root {
+    overflow: unset;
+    width: 100%;
+  }
+
+  .MuiCardContent-root {
+    padding: 16px 0;
+  }
+
+  td:first-child {
+    text-align: center;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  .user-count-slider {
+    position: absolute;
+    min-width: 500px;
+
+    @include max-xl {
+      min-width: 350px;
+    }
+
+    background-color: white;
+    min-height: 100px;
+    margin-top: 36px;
+    border: 1px solid #a6a6a6;
+    padding: 20px;
+    z-index: 1000;
+
+    button {
+      float: right;
+      margin-right: 0;
+    }
+  }
+
+  .rdrStaticRange {
+    max-height: 35.5px;
+  }
+
+  .collapse-button-team {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .advance-form {
+    margin-top: 5px;
+    transition: 0.3s all;
+
+    &.minimize-form {
+      height: 0;
+      overflow: hidden;
+    }
+
+    &.show-form {
+      height: 120px;
+    }
+  }
+
+  .minimize-button-container {
+    margin-top: 35px;
+  }
+
+  .team-filter-container {
+    .MuiButton-contained {
+      margin-right: 10px;
+      border-radius: 0;
+    }
+
+    .MuiButton-containedSizeLarge {
+      padding: 5px 22px;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 0;
+      height: 100%;
+    }
+  }
+
+  .MuiSlider-valueLabel {
+    top: -20px;
+
+    span:nth-child(1) {
+      border-radius: 0;
+      background-color: transparent;
+      color: #1976d2;
+    }
+  }
+
+  .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, -3px) scale(0.75);
+  }
+
+  .form-date {
+    top: 42px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "projectId": "4rjgcs",
+  "chromeWebSecurity": false,
+  "viewportHeight": 800,
+  "viewportWidth": 1280,
+  "testFiles": "**/*.{feature,features}",
+  "env": {
+    "TAGS": "not @ignore",
+    "cypress-react-selector": {
+      "root": "div[role='presentation']"
+    }
+  }
+}

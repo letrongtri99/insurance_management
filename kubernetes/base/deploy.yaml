@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sales-crm-frontend
+  namespace: default
+  labels:
+    app: sales-crm-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sales-crm-frontend
+  template:
+    metadata:
+      labels:
+        app: sales-crm-frontend
+    spec:
+      containers:
+        - name: sales-crm-frontend
+          image: asia.gcr.io/lustrous-spirit-687/sales-crm-frontend
+          imagePullPolicy: Always
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/bin/sleep", "10"]
+          resources:
+            limits:
+              cpu: 200m
+              memory: 128Mi
+            requests:
+              cpu: 200m
+              memory: 128Mi
+          volumeMounts:
+            - name: nginx-config
+              mountPath: /etc/nginx/nginx.conf
+              readOnly: true
+              subPath: nginx.conf
+      volumes:
+        - name: nginx-config
+          configMap:
+            name: sales-crm-frontend-nginx
+            defaultMode: 0400

@@ -1,0 +1,84 @@
+.lead-all-filter {
+  .form-date {
+    position: absolute;
+    top: 222px;
+    max-width: 700px;
+    right: 540px;
+
+    .rdrDefinedRangesWrapper {
+      position: absolute;
+      top: 0;
+      right: -181px;
+      height: 100%;
+      width: 180px;
+      border: 1px solid grey;
+      border-left: 2px solid grey;
+    }
+
+    .rdrCalendarWrapper {
+      padding-bottom: 30px;
+
+      .rdrDateDisplayWrapper {
+        background-color: #fff;
+        position: absolute;
+        bottom: 1px;
+        padding: 0 16px;
+        width: 100%;
+
+        .rdrDateDisplay {
+          border-top: 1px solid grey;
+
+          .rdrDateInput {
+            box-shadow: none;
+          }
+
+          .rdrDateDisplayItemActive {
+            border: none;
+          }
+        }
+      }
+    }
+
+    .preset-label {
+      position: absolute;
+      top: 0;
+      left: 22px;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+
+  .collapse-button-lead {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+
+  .advance-form {
+    margin-top: 5px;
+    transition: 0.3s all;
+
+    &.minimize-form {
+      height: 0;
+      overflow: hidden;
+    }
+
+    &.show-form {
+      height: 160px;
+    }
+  }
+
+  .minimize-button-container {
+    margin: 20px auto;
+  }
+
+  .MuiGrid-grid-md-3 {
+    margin-top: 10px;
+  }
+}

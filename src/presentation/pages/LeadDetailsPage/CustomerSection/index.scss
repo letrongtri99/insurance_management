@@ -1,0 +1,114 @@
+@import '../../../../scss/reuse-mixin.scss';
+
+.customer-section-container {
+  .online-icon {
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #00ff14;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    margin-top: 5px;
+  }
+
+  .offline-icon {
+    @extend .online-icon;
+
+    background-color: grey;
+  }
+
+  .custom-info-icon {
+    float: right;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .custom-text {
+    margin-left: 15px;
+  }
+
+  .MuiPaper-elevation3 {
+    border-radius: 0;
+  }
+
+  .shared-info {
+    height: 100%;
+  }
+
+  .field-title {
+    width: 40% !important;
+  }
+
+  .shared-select {
+    .MuiSelect-select {
+      padding: 5px 5px 5px 0;
+      height: 25px;
+      border: 0 !important;
+    }
+  }
+
+  .field-item {
+    width: 60% !important;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      cursor: pointer;
+    }
+
+    .MuiFormControl-root,
+    .MuiInputBase-formControl {
+      border-left: 0 !important;
+      border-right: 0 !important;
+    }
+
+
+    .MuiFormControl-root {
+      margin-left: unset;
+    }
+
+    .date-time {
+      input {
+        border: 1px solid $bg-color-blue-5;
+        border-radius: 6px;
+        padding: 3px 8px;
+        height: 26px;
+      }
+    }
+
+    &>span {
+      width: 100% !important;
+    }
+
+    .MuiFormHelperText-filled {
+      margin-left: 5px;
+    }
+
+    input {
+      padding-top: 3px !important;
+
+      &:not([readOnly]) {
+        border: 1px solid $bg-color-blue-5;
+        border-radius: 6px;
+        box-sizing: border-box;
+        padding: 3px 8px;
+        height: 26px;
+        background: $bg-color-primary;
+        min-width: 55px;
+        margin-left: 5px;
+
+        &:hover,
+        &:focus {
+          transition: 0.2s;
+          border: 1px solid $text-color-blue-6;
+          box-shadow: 0 7px 15px 0 $box-shadow-field;
+        }
+      }
+    }
+
+    .field-value {
+      margin-left: 10px;
+    }
+  }
+}

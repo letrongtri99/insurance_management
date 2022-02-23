@@ -1,0 +1,53 @@
+log:
+  level: trace
+  format: json
+dsn: sqlite:///db/kratos.sqlite3?_fk=true
+serve:
+  public:
+    base_url: http://localhost:4432/
+  admin:
+    base_url: http://localhost:4434/
+selfservice:
+  default_browser_return_url: http://localhost:3030/
+  whitelisted_return_urls:
+    - http://localhost:3030
+  strategies:
+    password:
+      enabled: true
+  flows:
+    error:
+      ui_url: http://localhost:3030/error
+    settings:
+      ui_url: http://localhost:3030/settings
+      privileged_session_max_age: 15m
+    recovery:
+      enabled: false
+    verification:
+      enabled: false
+    logout:
+      after:
+        default_browser_return_url: http://localhost:3030
+    login:
+      ui_url: http://localhost:3030/auth/sign-in
+      request_lifespan: 10m
+    registration:
+      ui_url: http://localhost:3030/auth/registration
+      after:
+        password:
+          hooks:
+            - hook: session
+secrets:
+  cookie:
+    - 741ae62183cf76bdf5f24a6d1f6b6240fc2e3ecaab066c72ae8955b538cd921d64ddde42874d3dca
+hashers:
+  argon2:
+    parallelism: 1
+    memory: 16384
+    iterations: 2
+    salt_length: 16
+    key_length: 16
+identity:
+  default_schema_url: file:///config/identity.traits.schema.json
+courier:
+  smtp:
+    connection_uri: smtps://test:test@mailslurper:1025/?skip_ssl_verify=true

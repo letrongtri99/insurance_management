@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sales-crm-frontend
+spec:
+  template:
+    spec:
+      containers:
+        - name: sales-crm-frontend
+          resources:
+            limits:
+              cpu: 200m
+              memory: 128Mi
+            requests:
+              cpu: 1m
+              memory: 32Mi

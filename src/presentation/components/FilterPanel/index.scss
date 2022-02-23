@@ -1,0 +1,39 @@
+.shared-filter-panel {
+  position: relative;
+  overflow: visible;
+  padding: 15px 40px 0 40px;
+  margin: 0;
+
+  .collapse-button-lead {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+  .MuiOutlinedInput-input {
+    padding: 12.5px 14px;
+  }
+
+  button {
+    z-index: 2;
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: inherit;
+  }
+
+  &__icon {
+    cursor: pointer;
+  }
+}

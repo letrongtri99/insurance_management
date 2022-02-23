@@ -1,0 +1,42 @@
+.activity-table-stories {
+  .activity-table {
+    .paging {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .table {
+      position: relative;
+      margin-bottom: 30px;
+
+      &__head {
+        background: #dbdbdb;
+        color: black;
+        font-weight: 1000;
+      }
+
+      &__body {
+        background: #f4f4f4;
+        color: black;
+        font-weight: 800;
+
+        .status {
+          color: white;
+          background-color: #a5a5a5;
+          padding: 2px 10px 2px 10px;
+          border-radius: 0;
+          font-weight: bold;
+          text-transform: none;
+          display: block;
+          width: fit-content;
+          min-height: 20px;
+        }
+      }
+
+      .table-cell {
+        width: 10px;
+      }
+    }
+  }
+}

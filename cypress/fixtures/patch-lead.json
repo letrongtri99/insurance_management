@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "car_brand": "10",
+  "car_model": "759",
+  "car_year": "2017",
+  "car_fuel": "Petrol",
+  "car_transmission": "Automatic",
+  "car_enginedescription": "5200",
+  "car_submodel": "18608",
+  "car_modify": "1",
+  "car_dashcam": "1",
+  "car_driving_purpose": "Personal",
+  "car_province": "100000",
+  "customer_phone": "0999999999",
+  "customer_first_name": "Cypress",
+  "customer_last_name": "Test",
+  "customer_email": "Cypress@gmail.co.th",
+  "customer_gender": "M",
+  "customer_dob": "1992-03-16",
+  "insurer_name": "27",
+  "policy_start": "2021-10-10",
+  "insurance_kind": "both",
+  "insurance_voluntary": ["Type 1"],
+  "tc": "1",
+  "lead_score": 4,
+  "utm": {
+    "lead_source": "rabbit.co.th",
+    "referrer_url": "https://staging-finance.rabbitinternet.com/en/"
+  },
+  "locale": "en"
+}

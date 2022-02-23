@@ -1,0 +1,83 @@
+.old-pagination {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+
+  &.custom-pagination {
+    float: right;
+  }
+
+  .pagination-padding {
+    .MuiSelect-select {
+      padding-right: 32px;
+    }
+  }
+
+  .pagination-select-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+
+    svg {
+      color: #204f93;
+    }
+
+    .pagination-label {
+      padding: 0 5px;
+    }
+
+    .pagination-select {
+      background: #fff;
+      color: #4f4b66;
+      border-radius: 15px;
+      font-weight: 600;
+    }
+
+  }
+
+  .MuiPagination-root {
+    .MuiPagination-ul {
+      flex-wrap: nowrap;
+
+      li {
+        .MuiPaginationItem-root {
+          width: 2.2rem;
+          height: 2.2rem;
+          border-radius: 12px;
+          border: 1px solid #ebedf4;
+          color: #4f4b66;
+          font-weight: 600;
+          transition: none;
+
+          &.MuiPaginationItem-ellipsis {
+            line-height: 2.2rem;
+          }
+
+          &.Mui-selected {
+            color: #fff;
+            background: #234f93;
+            border: 1px solid #234f93;
+          }
+        }
+
+        &:first-child,
+        &:last-child {
+          button {
+            border: none;
+
+            svg {
+              color: #204f93;
+            }
+          }
+
+          button.Mui-disabled {
+            svg {
+              color: #a6aabe;
+            }
+          }
+        }
+      }
+    }
+  }
+}

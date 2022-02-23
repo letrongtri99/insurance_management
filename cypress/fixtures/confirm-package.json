@@ -1,0 +1,40 @@
+{
+  "car_brand": "10",
+  "car_dashcam": "1",
+  "car_driving_purpose": "Personal",
+  "car_fuel": "Petrol",
+  "car_model": "759",
+  "car_modify": "1",
+  "car_province": "100000",
+  "car_submodel": "18608",
+  "car_transmission": "Automatic",
+  "car_enginedescription": 5200,
+  "car_year": "2017",
+  "customer_dob": "1992-03-16",
+  "customer_email": "Cypress@gmail.co.th",
+  "customer_first_name": "Cypress",
+  "customer_gender": "M",
+  "customer_last_name": "Test",
+  "customer_phone": "0999999999",
+  "insurance_kind": "both",
+  "insurance_voluntary": ["Type 2+"],
+  "insurer_name": "27",
+  "utm": {
+    "lead_source": "rabbit.co.th",
+    "referrer_url": "https://staging-finance.rabbitinternet.com/en/"
+  },
+  "locale": "en",
+  "tc": "1",
+  "car": {
+    "model": "R8",
+    "year": 2017,
+    "sum_insured": 12310500,
+    "brand": "Audi"
+  },
+  "youngest_driver_dob": null,
+  "policy_start": "2021-10-01",
+  "car_cab_type": null,
+  "car_number_of_doors": null,
+  "car_registered_seats": null,
+  "id": "leads/7f2365c1-f29b-4e91-b55b-450454a33ec7"
+}

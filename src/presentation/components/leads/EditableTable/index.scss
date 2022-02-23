@@ -1,0 +1,16 @@
+.shared-editable-table {
+  position: relative;
+  margin-bottom: 30px;
+
+  .table-cell {
+    width: 10px;
+  }
+
+  .MuiInput-underline.Mui-disabled::before {
+    border-bottom-style: none;
+  }
+
+  .sum-col {
+    color: red;
+  }
+}

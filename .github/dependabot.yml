@@ -1,0 +1,99 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: lockfile-only
+  ignore:
+  - dependency-name: date-fns
+    versions:
+    - 2.19.0
+    - 2.20.0
+    - 2.20.1
+    - 2.20.2
+    - 2.20.3
+    - 2.21.0
+  - dependency-name: "@material-ui/data-grid"
+    versions:
+    - 4.0.0-alpha.24
+    - 4.0.0-alpha.25
+  - dependency-name: ts-jest
+    versions:
+    - 26.5.0
+    - 26.5.4
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.22
+  - dependency-name: rsuite
+    versions:
+    - 4.9.2
+    - 4.9.3
+  - dependency-name: "@storybook/node-logger"
+    versions:
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.1.16
+    - 6.1.17
+    - 6.1.18
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@storybook/addon-links"
+    versions:
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@storybook/addon-controls"
+    versions:
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@storybook/addon-essentials"
+    versions:
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@storybook/addon-actions"
+    versions:
+    - 6.1.19
+    - 6.1.20
+    - 6.1.21
+    - 6.2.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.1
+    - 7.13.10
+    - 7.13.13
+    - 7.13.8
+  - dependency-name: react-i18next
+    versions:
+    - 11.8.10
+    - 11.8.11
+    - 11.8.5
+    - 11.8.6
+    - 11.8.8
+    - 11.8.9
+  - dependency-name: i18next
+    versions:
+    - 19.9.0
+    - 19.9.1
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.31
+  - dependency-name: stylelint
+    versions:
+    - 13.9.0
+  - dependency-name: "@types/react-dom"
+    versions:
+    - 16.9.10

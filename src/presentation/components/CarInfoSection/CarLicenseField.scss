@@ -1,0 +1,63 @@
+@import '../../../scss/reuse-mixin.scss';
+
+.license-red-plate {
+  &__row {
+    border: 1px solid;
+    border-radius: 6px;
+    margin-right: 9px;
+
+    .MuiFormControlLabel-root {
+      margin-left: 0;
+
+      .MuiRadio-root {
+        padding: 2px 9px;
+      }
+    }
+  }
+
+  &__abbreviation {
+    width: 15%;
+    margin-left: 3px;
+    min-height: 32px;
+    line-height: 32px;
+    background-color: #e0e4e8;
+    text-align: center;
+  }
+
+  &__abbreviation-disabled {
+    color: #fff;
+  }
+
+  .MuiOutlinedInput-root {
+    border-radius: 4px;
+  }
+
+  &__numeric-text {
+    margin: 3px;
+
+    .MuiInputBase-formControl {
+      .MuiOutlinedInput-input {
+        padding: 12px 8px;
+      }
+    }
+  }
+
+  &__numeric-text,
+  &__free-text {
+    .MuiInputBase-input.Mui-disabled {
+      border: 0;
+      background-color: #e0e4e8;
+    }
+
+    .MuiInputBase-input {
+      background-color: #fff;
+    }
+  }
+
+  &__error {
+    width: 50%;
+    align-self: flex-end;
+    color: red;
+    font-size: 0.65rem;
+  }
+}

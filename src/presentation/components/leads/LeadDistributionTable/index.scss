@@ -1,0 +1,32 @@
+.table-new-leads {
+  &__name {
+    float: left;
+    margin-left: 40px;
+  }
+
+  &__icon {
+    float: right;
+    padding: 20px;
+  }
+
+  &__save {
+    float: right;
+    margin: 10px;
+  }
+
+  &:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .MuiInput-underline.Mui-disabled::before {
+    border-bottom-style: none;
+  }
+
+  .text-bold {
+    font-weight: 800;
+
+    &.error-value {
+      color: red;
+    }
+  }
+}
