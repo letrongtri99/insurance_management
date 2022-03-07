@@ -4481,9 +4481,9 @@
     "@types/reactcss" "*"
 
 "@types/react-date-range@^0.95.1":
-  version "0.95.2"
-  resolved "https://registry.yarnpkg.com/@types/react-date-range/-/react-date-range-0.95.2.tgz#d8015bac85117e13855d21418be7c1b3a4831b0f"
-  integrity sha512-/Kxfara+pcJjqLpRfUMOU0G7ManbGFTy2ADDLSf+xlg95EfT4vPLBI12G6Rf4q6dD93y+OArfj3BDeuAKmn+8A==
+  version "0.95.4"
+  resolved "https://registry.yarnpkg.com/@types/react-date-range/-/react-date-range-0.95.4.tgz#20a3e8be33db199c42ec640bf9d49946c7e2ba87"
+  integrity sha512-WbpS60n4d9iogHbliPnQdQb2v5a9aM9da5FqBeC49MThVZJuuWu30zAv8Id7Gp+kDoREzhK3dgJR829docpezw==
   dependencies:
     "@types/react" "*"
     moment ">=2.14.0"
@@ -4580,19 +4580,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16", "@types/react@^16.9.46":
-  version "16.14.15"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.15.tgz#95d8fa3148050e94bcdc5751447921adbe19f9e6"
-  integrity sha512-jOxlBV9RGZhphdeqJTCv35VZOkjY+XIEY2owwSk84BNDdDv2xS6Csj6fhi+B/q30SR9Tz8lDNt/F2Z5RF3TrRg==
+"@types/react@*", "@types/react@>=16.9.0":
+  version "17.0.30"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
+  integrity sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@>=16.9.0":
-  version "17.0.30"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
-  integrity sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==
+"@types/react@^16", "@types/react@^16.9.46":
+  version "16.14.15"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.15.tgz#95d8fa3148050e94bcdc5751447921adbe19f9e6"
+  integrity sha512-jOxlBV9RGZhphdeqJTCv35VZOkjY+XIEY2owwSk84BNDdDv2xS6Csj6fhi+B/q30SR9Tz8lDNt/F2Z5RF3TrRg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
