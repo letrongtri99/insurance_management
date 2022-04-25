@@ -8317,11 +8317,11 @@ cypress-file-upload@^5.0.8:
   integrity sha512-+8VzNabRk3zG6x8f8BWArF/xA/W0VK4IZNx3MV0jFWrJS/qKn8eHfa5nU73P9fOQAgwHFJx7zjg4lwOnljMO8g==
 
 cypress-react-selector@^2.3.11:
-  version "2.3.11"
-  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.11.tgz#0b732c327f7b329ae67ea4efbe727436c9e0f2e3"
-  integrity sha512-oWdVkBiXKpf4oHCcSBs2FGf8egJu7l8Rfi5Y9sbSk7kfq4cQRnQVnvmjWER1FkJRd/4tcwAO/Ku+Qw9XJsyxIw==
+  version "2.3.17"
+  resolved "https://registry.yarnpkg.com/cypress-react-selector/-/cypress-react-selector-2.3.17.tgz#010382b486c4ec342ab61bcd121bb4ccd79e4590"
+  integrity sha512-yBi3wv5XUuzcYXearR0PN8lz0kMk44TOP4LVhwK1e4IU1fuWtlyVag1i+2eg0sdKRJ8VePEgmJhgZfOgd3VEgg==
   dependencies:
-    resq "1.10.1"
+    resq "1.10.2"
 
 cypress@^7.6.0:
   version "7.7.0"
@@ -17754,10 +17754,10 @@ resolve@^2.0.0-next.3:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
-resq@1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/resq/-/resq-1.10.1.tgz#c05d1b3808016cceec4d485ceb375acb49565f53"
-  integrity sha512-zhp1iyUH02MLciv3bIM2bNtTFx/fqRsK4Jk73jcPqp00d/sMTTjOtjdTMAcgjrQKGx5DvQ/HSpeqaMW0atGRJA==
+resq@1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/resq/-/resq-1.10.2.tgz#cedf4f20d53f6e574b1e12afbda446ad9576c193"
+  integrity sha512-HmgVS3j+FLrEDBTDYysPdPVF9/hioDMJ/otOiQDKqk77YfZeeLOj0qi34yObumcud1gBpk+wpBTEg4kMicD++A==
   dependencies:
     fast-deep-equal "^2.0.1"
 
