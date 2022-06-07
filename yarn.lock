@@ -10939,9 +10939,9 @@ good-listener@^1.2.2:
     delegate "^3.1.2"
 
 google-libphonenumber@^3.2.20:
-  version "3.2.25"
-  resolved "https://registry.yarnpkg.com/google-libphonenumber/-/google-libphonenumber-3.2.25.tgz#3bc1a041fa392739d201eacf66761df236f1614b"
-  integrity sha512-M/b5mij5o2aGnbe+Id9O3847jBtP0baW61foFkevxBxbuV4LH9AcujjYLd2UVkUPKVdMpKyBZxfeNwdxqobQFQ==
+  version "3.2.28"
+  resolved "https://registry.yarnpkg.com/google-libphonenumber/-/google-libphonenumber-3.2.28.tgz#246b7fb797ff9dc2230519777c4c8cf78a366e6e"
+  integrity sha512-6VHuMFJa+kPpcMwv+2y/o5uKD5uVh4SOVoXQAy4ZE1TKtxZX/BvBOJX5CZe7nKj5GeE5/9WnBItjWvZVZYcpiA==
 
 google-map-react@1.1.7:
   version "1.1.7"
