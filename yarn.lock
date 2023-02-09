@@ -16908,9 +16908,9 @@ react-perfect-scrollbar@1.5.8:
     prop-types "^15.6.1"
 
 react-player@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.9.0.tgz#ef7fe7073434087565f00ff219824e1e02c4b046"
-  integrity sha512-jNUkTfMmUhwPPAktAdIqiBcVUKsFKrVGH6Ocutj6535CNfM91yrvWxHg6fvIX8Y/fjYUPoejddwh7qboNV9vGA==
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.11.1.tgz#32d2a59e34d678a98176411d0fabd24cb353f036"
+  integrity sha512-he9xHLUR5gO0sMSMjqShwrnFs1QU90cwPndi/6oJmeUykLRXCKHITloU93hQw7ZVxCbAJP+cXnkX6GxsIKRYkw==
   dependencies:
     deepmerge "^4.0.0"
     load-script "^1.0.0"
