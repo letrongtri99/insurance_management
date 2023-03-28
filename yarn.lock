@@ -9519,9 +9519,9 @@ eslint-module-utils@^2.4.1, eslint-module-utils@^2.6.1:
     pkg-dir "^2.0.0"
 
 eslint-plugin-cypress@^2.11.3:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.11.3.tgz#54ee4067aa8192aa62810cd35080eb577e191ab7"
-  integrity sha512-hOoAid+XNFtpvOzZSNWP5LDrQBEJwbZwjib4XJ1KcRYKjeVj0mAmPmucG4Egli4j/aruv+Ow/acacoloWWCl9Q==
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.13.1.tgz#4127bb1aa558a9ca7e3d19b5ed997ccef52c95fb"
+  integrity sha512-THjc7IT3S9H4KwmRhzAhMGQaEqy78/7W75He/gBhJEH0vIuAY16vOI4YSliDo/ZY+Wm6DtvMHR+8uVvICcI3Lw==
   dependencies:
     globals "^11.12.0"
 
