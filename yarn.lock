@@ -4093,21 +4093,7 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@testing-library/dom@^8.0.0":
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.5.0.tgz#56e31331015f943a68c6ec27e259fdf16c69ab7d"
-  integrity sha512-O0fmHFaPlqaYCpa/cBL0cvroMridb9vZsMLacgIqrlxj+fd+bGF8UfAgwsLCHRF84KLBafWlm9CuOvxeNTlodw==
-  dependencies:
-    "@babel/code-frame" "^7.10.4"
-    "@babel/runtime" "^7.12.5"
-    "@types/aria-query" "^4.2.0"
-    aria-query "^4.2.2"
-    chalk "^4.1.0"
-    dom-accessibility-api "^0.5.6"
-    lz-string "^1.4.4"
-    pretty-format "^27.0.2"
-
-"@testing-library/dom@^8.7.0":
+"@testing-library/dom@^8.0.0", "@testing-library/dom@^8.7.0":
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.7.0.tgz#9fdcc1bf34dfa49b63815a3f76491330cf115724"
   integrity sha512-8oOfBG51v8aN9D8eehwzgnEETf9Lxv/3dZyPZuar1JAp9OK0I9d7Y2MR6TEQyj/E/iN1kCIeYaCI445s5C9RDg==
@@ -4148,12 +4134,13 @@
     react-error-boundary "^3.1.0"
 
 "@testing-library/react@^12.1.0":
-  version "12.1.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-12.1.2.tgz#f1bc9a45943461fa2a598bb4597df1ae044cfc76"
-  integrity sha512-ihQiEOklNyHIpo2Y8FREkyD1QAea054U0MVbwH1m8N9TxeFz+KoJ9LkqoKqJlzx2JDm56DVwaJ1r36JYxZM05g==
+  version "12.1.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-12.1.3.tgz#ef26c5f122661ea9b6f672b23dc6b328cadbbf26"
+  integrity sha512-oCULRXWRrBtC9m6G/WohPo1GLcLesH7T4fuKzRAKn1CWVu9BzXtqLXDDTA6KhFNNtRwLtfSMr20HFl+Qrdrvmg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
+    "@types/react-dom" "*"
 
 "@testing-library/user-event@^13.2.1":
   version "13.5.0"
@@ -4497,10 +4484,10 @@
     "@types/react" "*"
     date-fns "^2.0.1"
 
-"@types/react-dom@>=16.9.0":
-  version "17.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.10.tgz#d6972ec018d23cf22b99597f1289343d99ea9d9d"
-  integrity sha512-8oz3NAUId2z/zQdFI09IMhQPNgIbiP8Lslhv39DIDamr846/0spjZK0vnrMak0iB8EKb9QFTTIdg2Wj2zH5a3g==
+"@types/react-dom@*", "@types/react-dom@>=16.9.0":
+  version "18.2.7"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.7.tgz#67222a08c0a6ae0a0da33c3532348277c70abb63"
+  integrity sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==
   dependencies:
     "@types/react" "*"
 
