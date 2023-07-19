@@ -16888,9 +16888,9 @@ react-list@^0.8.13:
     prop-types "15"
 
 react-number-format@^4.5.5:
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/react-number-format/-/react-number-format-4.7.3.tgz#e1706204a23c40fa17365a19f5059aabfca1886f"
-  integrity sha512-4EvcANjstypQ5anhanmdEioGc49qbnErfS+yqbhatC0vzQ1okplkWNb0DIY7ABu4RhaxzttEz6pypEy8KsqgBQ==
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/react-number-format/-/react-number-format-4.9.2.tgz#a5e780447d37ee75a85ba1ed8557dec520cc6bd4"
+  integrity sha512-12bVOeCBvTxx+UHiEytbqQmzfavoG/eU4yNCr9042QX//xpAloVGJYmVrRAzvr7GRbm6qkZeC4AmTwsHtKbATw==
   dependencies:
     prop-types "^15.7.2"
 
