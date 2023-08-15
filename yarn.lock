@@ -4259,9 +4259,9 @@
     "@types/node" "*"
 
 "@types/google-libphonenumber@^7.4.21":
-  version "7.4.21"
-  resolved "https://registry.yarnpkg.com/@types/google-libphonenumber/-/google-libphonenumber-7.4.21.tgz#db5293874ffa91cbbc4bc6bd1b065615e8e615ba"
-  integrity sha512-AkZh/KMuvHpjpMeV1Wx1BJl5gMUVc2gKJhzhbQlpUzIg5s/vjcw8tZeH7nLsCwddCxqf93YVpdJcjUNRkW7gvQ==
+  version "7.4.25"
+  resolved "https://registry.yarnpkg.com/@types/google-libphonenumber/-/google-libphonenumber-7.4.25.tgz#04bab59ee31b099020ca1d7d166ad133e9b5e353"
+  integrity sha512-Cc8d9ipU18vsSA2of9hZcdab7QR0xpXWWtMZpLEI8t00pWYMcLy1fV1tTdJ2TVdI1qL0CJjJLQsVSDtljNx43A==
 
 "@types/graceful-fs@^4.1.2":
   version "4.1.4"
