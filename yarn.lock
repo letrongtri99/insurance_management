@@ -9159,9 +9159,9 @@ env-cmd@^10.1.0:
     cross-spawn "^7.0.0"
 
 env-var@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/env-var/-/env-var-7.1.1.tgz#c1697f8dfded0b54418dc9bbd78a82119910e57c"
-  integrity sha512-4+vvlq+wwGQNwY/nI3/+Ojc1MKHCmITRJ6VWkQzDtMD6fAEb60ACRUCnlIAonMKW9YzqYmYxbyVu9vTb++yNRg==
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/env-var/-/env-var-7.4.0.tgz#87d55068bf5fe932a2eb5e68dcedcdc1408c324e"
+  integrity sha512-iUNd+W90mf1tJKRJpicrlMKhhvP3voUf84mEdjn4q09rZqj17l89iaQHVd3KKXcEDfvZ+TWLWY3qJrLb2aHl3Q==
 
 enzyme-adapter-react-16@^1.15.5:
   version "1.15.6"
