@@ -4223,9 +4223,9 @@
     "@types/node" "*"
 
 "@types/cypress-cucumber-preprocessor@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@types/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-4.0.1.tgz#1e4cb1c3cf6c9c2c37bc523b5d5047a515cd4e93"
-  integrity sha512-sK2/uU5CtmJ51zo0JF2Lc4iSw9Fy3xn9ewfewuooV5Qmeb5O+brAHuoXKMV7UWwRbBmd+txhAXAJoi4S5QLDRQ==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-4.0.4.tgz#1dcaa6ba93e61b4abca85f79e456ff1cd014ad06"
+  integrity sha512-wNLjQgFUQri1ZjRuI0ZckmjcBgGpL47iOV0aaF9/5hmt/bQ1WJ/DVkIh9eAQW+427bQWRj+lNb+uwxSZ2ukmCA==
 
 "@types/enzyme@^3.10.8":
   version "3.10.9"
