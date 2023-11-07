@@ -4620,9 +4620,9 @@
     redux "^4.0.5"
 
 "@types/resolve@^1.20.1":
-  version "1.20.1"
-  resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.1.tgz#3727e48042fda81e374f5d5cf2fa92288bf698f8"
-  integrity sha512-Ku5+GPFa12S3W26Uwtw+xyrtIpaZsGYHH6zxNbZlstmlvMYSZRzOwzwsXbxlVUbHyUucctSyuFtu6bNxwYomIw==
+  version "1.20.5"
+  resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.5.tgz#7923a0abbac4b6301d51f450db342bd4aff1ac84"
+  integrity sha512-aten5YPFp8G+cMpkTK5MCcUW5GlwZUby+qlt0/3oFgOCooFgzqvZQ9/0tROY49sUYmhEybBBj3jwpkQ/R3rjjw==
 
 "@types/scheduler@*":
   version "0.16.1"
